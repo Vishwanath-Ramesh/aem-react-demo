@@ -1,0 +1,50 @@
+{
+  "language": "en",
+  ":items": {},
+  ":itemOrder": [],
+  ":hierarchyType": "page",
+  "path": "/",
+  "cssClassNames": "spa page basicpage",
+  ":children": {
+    "/home": {
+      "language": "en",
+      "cssClassNames": "page-1",
+      "newProps": true,
+      ":items": {
+        "header": {
+          "title": "Page 1",
+          ":type": "aem-react-demo/components/header"
+        },
+        "subheader": {
+          "text": "<h3><u>Sub header 1</u></h3>",
+          "richText": true,
+          ":type": "aem-react-demo/components/text"
+        }
+      },
+      ":itemsOrder": ["header", "subheader"],
+      ":hierarchyType": "page",
+      ":path": "/home",
+      ":type": "aem-react-demo/components/page"
+    },
+    "/home2": {
+      "language": "en",
+      "cssClassNames": "page-2",
+      ":items": {
+        "header": {
+          "title": "Page 2",
+          ":type": "aem-react-demo/components/header"
+        },
+        "subheader": {
+          "text": "<h3><u>Sub header 2</u></h3>",
+          "richText": true,
+          ":type": "aem-react-demo/components/text"
+        }
+      },
+      ":itemsOrder": ["header", "subheader"],
+      ":hierarchyType": "page",
+      ":path": "/home2",
+      ":type": "aem-react-demo/components/page"
+    }
+  },
+  ":type": "aem-react-demo/components/spa"
+}
